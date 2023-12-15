@@ -1,26 +1,13 @@
-function validateForm() {
-    let x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-  }
+function submitForm() {
 
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var author = document.getElementById('author').value;
+  var bookTip = document.getElementById('bookTip').value;
 
+  // Exempel: Visa en bekräftelsemeddelande
+  alert('Tack för ditt boktips!\n\nNamn: ' + name + '\nMejladress: ' + email + '\nNobelpristagare: ' + author + '\nBoktips: ' + bookTip); //ska fyllas i
 
-
-
-
-
-
-
-
-
-// function processInput() {
-//     // Hämta värdet från input-fältet
-//     var userInput = document.getElementById("userInput").value;
-
-//     // Gör något med användarens inmatning (i det här fallet, visa det på sidan)
-//     var outputElement = document.getElementById("output");
-//     outputElement.innerHTML = "Du angav: " + userInput;
-// }
+  // Rensa formuläret om det behövs
+  document.getElementById('bookForm').reset();
+}

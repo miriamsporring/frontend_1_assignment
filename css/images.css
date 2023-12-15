@@ -1,0 +1,15 @@
+.bild{
+    margin-left: 50px;
+    margin-top: 15px;
+    height: 90px;
+    width: 90px;
+}
+
+.image_right {
+    width: 10em;
+/*    border: black 2px solid;*/
+    height: 10em;
+    float: right;
+    margin: 0.5em;
+    border-radius: 6px;
+}

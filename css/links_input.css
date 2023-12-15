@@ -1,0 +1,79 @@
+/* LÄNKAR */
+a:link {
+    color: #d6bd8b;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #d6bd8b;
+    text-decoration: none;
+    background-color: #4c6039;
+}
+
+a:hover {
+    color: #d6bd8b;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #4c6039;
+}
+
+a:active {
+    color: #c18755;
+    text-decoration: underline;
+}
+
+
+/* INPUT */
+input{
+    height: 2.2em;
+    margin-right: 5em;
+    background-color: #edf3f8;
+    border-radius: 4px;
+    text-indent: .5rem;
+    border: none;
+    width: 150px;
+
+}
+
+input:hover{
+    border: blue 1px solid;
+}
+
+
+input::placeholder{
+    text-indent: 0.5rem;
+}
+
+.left{
+    width: 10em;
+   border: green 2px solid;
+    padding: 0.5em;
+}
+
+.right1{
+    width: 20em;
+    margin-left: 20px;
+    margin-bottom: 1em;
+}
+.right2{
+    width: 20em;
+    margin-left: 85px;
+    margin-bottom: 1em;
+}
+
+.right3{
+    width: 20em;
+    margin-left: 43px;
+    margin-bottom: 1em;
+}
+
+.right4{
+    width: 20em;
+    margin-left: 110px;
+
+}
+.padding_box {
+    padding: 0.5em;
+    box-sizing: border-box;
+
+}

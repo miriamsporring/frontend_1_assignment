@@ -3,7 +3,11 @@
         <head>
         <meta charset="UTF-8">
         <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/top_nav.css">
+        <link rel="stylesheet" href="css/mitten_footer.css">
+        <link rel="stylesheet" href="css/links_input.css">
+        <link rel="stylesheet" href="css/motivering.css">
+        <link rel="stylesheet" href="css/images.css">
         <script src="js/tips.js" defer></script>
         <title>De litterära nobelprisen</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,28 +34,52 @@
                 </li>
     
                 <li>
-                    <a href="tips_pristagare.html">TIPS PÅ PRISTAGARE</a>
+                    <a href="tips_pristagare.html">BOKTIPS</a>
                 </li>
     
             </ul>
         </nav>
     </header>
 
-<h1>Tips till coachen</h1>
+<h1>Lämna gärna ditt eget boktips!</h1>
 
 <section class="all_around">
     <div class="font">
 
-        <p class="left_column">
-           
-           Nåt formulär möjligen
+        <div class="left_column">     
+            <p>
+            Dela gärna era egna tips på litteraturpristagare ni läst.
+            På det viset kan vi guida varandra till nya upptäckter! <br>
+            Fyll i formuläret nedan: <br><br><br>
+            </p>
             
-            <div id="output"></div>
+            <form id="bookForm">
+                <label for="name">För- och efternamn:</label>
+                <input class="right1" type="text" id="name" name="name" required> <br>
+          
+                <label for="email">Mejladress:</label>
+                <input class="right2" type="email" id="email" name="email" required><br>
 
-        </p>
+                <label for="author">Nobelpristagare:</label>
+                <input class="right3" type="text" id="author" name="author" required> <br>
 
+                <label for="bookTip">Boktips:</label>
+                <textarea class="right4 " id="bookTip" name="bookTip" rows="4" required></textarea>    <br> <br>   
+            
+                <button class="knapp" type="button" onclick="submitForm()">Skicka</button>
+            </form>
+        </div>
+
+
+
+           
+        
         <p class="right_column">
-            Nåt annat som jag inte kommit på än
+            <b>Boktips</b><br>
+
+            <a href="https://www.adlibris.com/se/sok?q=nobelpristagare&pn=3&ps=12" target="_blank">AdLibris
+                sortiment av nobelpristagare</a>
+            
         </p>
 
     </div>
@@ -59,8 +87,12 @@
 </section>
 
 <footer>
-
-    </footer>
+    <p>
+    Färgerna på den här sidan har jag hämtat från ett annat stort intresse jag har, nämligen garn. <br>
+    Här kan du själv se nystanet med färgvalet 
+    <a href="https://hobbii.se/universe?option=14142" target="_blank">Solar Eclipse</a>
+</p>
+</footer>
 
 
 </body>

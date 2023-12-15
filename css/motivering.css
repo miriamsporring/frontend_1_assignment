@@ -1,0 +1,14 @@
+
+.knapp{
+    background-color: #d6bd8d;
+    border: none;
+    padding: 0.3em;
+    margin-right: 0.5em;
+    border-radius: 1em;
+    border: 2px #4c6039 solid;
+}
+
+.motivering {
+font-style: italic;
+font-size: 0.9em;
+}
